@@ -13,8 +13,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "yarn favicon & next dev",
-    "build": "yarn favicon & next build",
+    "dev": "yarn favicon && next dev",
+    "build": "yarn favicon && next build",
     "start": "next start",
     "lint": "next lint",
     "cname": "node bin/generateCNAME.js",

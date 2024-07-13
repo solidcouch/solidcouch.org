@@ -21,14 +21,24 @@ export default function RootLayout({
     <html lang="en">
       <body className={styles.body}>
         <header className={styles.header}>
-          <Link href="/" className={styles.logoContainer}>
-            <Image src={logo} alt="" width={50} className={styles.logo} />
+          <Link
+            href="/"
+            className={styles.logoContainer}
+            aria-label="main page"
+          >
+            <Image
+              src={logo}
+              alt={"logo"}
+              width={100}
+              className={styles.logo}
+            />
           </Link>
         </header>
         <section className={styles.content}>{children}</section>
         <footer className={styles.footer}>
-          <Link href="/about">about</Link>
-          <a href="https://github.com/mrkvon/mdpages">mdpages</a>
+          <span className={styles.attribution}>
+            Created with <a href="https://github.com/mrkvon/mdpages">mdpages</a>
+          </span>
         </footer>
       </body>
     </html>
