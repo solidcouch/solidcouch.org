@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as s,ah as t}from"./chunks/framework.Cga242Po.js";const u=JSON.parse('{"title":"TODO","description":"","frontmatter":{},"headers":[],"relativePath":"TODO.md","filePath":"TODO.md"}'),l={name:"TODO.md"};function n(r,e,o,h,d,c){return s(),a("div",null,[...e[0]||(e[0]=[t("",17)])])}const k=i(l,[["render",n]]);export{u as __pageData,k as default};
